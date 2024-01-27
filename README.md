@@ -4,7 +4,9 @@ This repository contains the code for a simple recipe page. The page features a 
 
 ## Preview
 
-![Recipe Page Preview](preview.png)
+### Screenshot
+
+![](./screenshot.jpg)
 
 ## Features
 
