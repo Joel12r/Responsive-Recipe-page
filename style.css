@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+card-title {
+    color: #854632;
+    color: #7B284F;
+    color: #F3499E;
+    color: #F3E6D8;
+    color: #E4DED8;
+    color: #5F574E;
+    color: #302D2C;
+}
+
+body {
+    background-color: #F3E6D8;
+}
+.attribution {
+    color: #854632;
+    font-size: 16px;
+    text-align: center;
+    font-family: Young Serif;
+  }
+
+  .attribution a {
+    text-decoration: none;
+    color: #F3499E;
+  }
+img.omelette-image {
+    width: 90%;
+    border-radius: 32px;
+    margin-left: 5%;
+
+}
+
+.card {
+    border-radius: 22px;
+    margin-bottom: 5%;
+}
+
+hr.h-line{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+h1 {
+    color: #854632;
+    font-family: Young Serif;
+}
+
+h1,
+h2 {
+
+    margin-left: 5%;
+}
+
+h2 {
+    font-family: Outfit;
+    font-weight: 600;
+    padding-top: 10%;
+    color: #7B284F;
+}
+
+.paragraph-background {
+    margin-left: 14%;
+    height: 18rem;
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+li.preparation-list {
+    margin-left: 5%;
+    color: #7B284F;
+}
+
+p {
+    margin-left: 5%;
+    width: 90%;
+    letter-spacing: 0.5px;
+}
+
+span.list {
+    color: #5F574E;
+    font-family: Outfit;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+li.ingredients-list {
+    color: #854632;
+    margin-left: 5%;
+}
+
+span.ingredients-list {
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    color: #5F574E;
+    padding-left: 5%;
+}
+
+
+span.instructions {
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5F574E;
+    margin-left: 5%;
+}
+
+span.preparations {
+    color: #5F574E;
+}
+
+p.nutrition-paragraph {
+    color: #5F574E;
+    font-size: 16px;
+}
+
+.table {
+    width: 90%;
+}
+
+th.heading {
+    font-family: Outfit;
+    font-weight: 400;
+    color: #5F574E;
+}
+
+td.data {
+    font-family: Outfit;
+    font-weight: 700;
+    color: #854632;
+}
+.table th.heading.fat{
+    border-bottom: none;   
+  }
+
+td.data.fat {
+    border-bottom: none; 
+}
+.instructions {
+    margin-left: 5%;
+    color: #854632;
+    list-style-type: none;
+    counter-reset: instruction-counter;
+  }
+  
+  .instructions .instruction-number {
+    font-family: Outfit;
+    display: inline-block;
+    width: 30px; 
+    text-align: right;
+    margin-right: 5%;
+    margin-left: -5%;
+    font-weight: 700;
+  }
+  
+  .instructions .instruction-text {
+    font-family: Outfit;
+    font-size: 20px;
+    color: #5F574E;
+    font-weight: bold;
+    font-weight: 700;
+  }
+  
+  .instructions .instruction-details {
+    color: #5F574E;
+    font-family: Outfit;
+    display: block;
+    margin-left: 5%;
+  }
+  @media (max-width:375px) {
+    .paragraph-background{
+        margin-left: 4%;
+        width: 90%;
+      
+    }
+  }
