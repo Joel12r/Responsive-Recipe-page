@@ -48,7 +48,9 @@ h1 {
     color: #854632;
     font-family: Young Serif;
 }
-
+h1.heading.omelette-heading{
+    color: #302D2C;
+}
 h1,
 h2 {
 
